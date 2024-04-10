@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<details>
+	<oders>
+		<Events>Wedding</Events>
+		<Organized_In>Mumbai</Organized_In>
+		<Organized_By>Anup Das</Organized_By>
+		<Email_id>Anup@gmail.com</Email_id>
+		<sample></sample>
+	</oders>
+	
+	<oders>
+		<Events>Birthdays</Events>
+		<Organized_In>Ahmedabad</Organized_In>
+		<Organized_By>Krisha Patel</Organized_By>
+		<Email_id>kp2019@gmail.com</Email_id>
+		<sample></sample>
+	</oders>
+	
+	<oders>
+		<Events>Bussiness Events</Events>
+		<Organized_In>Kolkata</Organized_In>
+		<Organized_By>Shrusti Chauhan</Organized_By>
+		<Email_id>shru19@gmail.com</Email_id>
+		<sample></sample>
+	</oders>
+	
+	<oders>
+		<Events>Engagement</Events>
+		<Organized_In>Hyderabad</Organized_In>
+		<Organized_By>Rahul Gupta</Organized_By>
+		<Email_id>Rg15@gmail.com</Email_id>
+		<sample></sample>
+	</oders>
+	
+	<oders>
+		<Events>Birthday</Events>
+		<Organized_In>Rajkot</Organized_In>
+		<Organized_By>Sushil Ghosh</Organized_By>
+		<Email_id>sushil@gmail.com</Email_id>
+		<sample></sample>
+	</oders>
+	
+	<oders>
+		<Events>Baby Shower</Events>
+		<Organized_In>Pune</Organized_In>
+		<Organized_By>Riya Jain</Organized_By>
+		<Email_id>rj45@gmail.com</Email_id>
+		<sample></sample>
+	</oders>
+</details>
+ 

@@ -1,0 +1,13 @@
+{
+    "user": [
+        {
+            "firstname": "admin",
+            "lastname": "admin",
+            "phone": "9359082545",
+            "gender": "female",
+            "email" : "srijaneedas30@gmail.com",
+            "password": "admin"
+    
+        }
+    ]
+}
