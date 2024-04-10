@@ -1,3 +1,13 @@
+function toggleDropdown() {
+    var dropdown = document.getElementById("weddingDropdown");
+    if (dropdown.style.display === "none") {
+        dropdown.style.display = "block";
+    } else {
+        dropdown.style.display = "none";
+    }
+}
+
+
 /*form validation*/
 const firstName = document.getElementById('firstName')
 const lastName = document.getElementById('lastName')
