@@ -1,40 +1,42 @@
-
 <nav class="navbar navbar-expand-lg navbar-light bg-custom2">
-    <div class="container menu">
+  <div class="container menu">
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+          <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ms-auto me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="index.html">Home</a>
-          </li>
-          
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" list="mydata" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Wedding
-            </a>
-            <datalist id="mydata">
-              <option lable="hindu" value="hindu wedding"><a class="dropdown-item" href="hindu.html">Hindu Wedding</a></option>
-              <option lable="muslim" value="muslim wedding"><a class="dropdown-item" href="muslim.html">muslim Wedding</a></option>
-              <option lable="christan" value="christan wedding"><a class="dropdown-item" href="christan.html">Hindu Wedding</a></option>
-            </datalist>
-            <!--<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="hindu.html">Hindu Wedding</a></li>
-              <li><a class="dropdown-item" href="muslim.html">Muslim Wedding</a></li>
-              <li><a class="dropdown-item" href="christan.html">Christan Wedding</a></li>
-            </ul>-->
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="birthday.html">Birthday</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="engagement.html">Engagement Party</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="anniversary.html">Anniversary</a>
-          </li>
-        </ul>
+          <ul class="navbar-nav ms-auto me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="index.html">Home</a>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" aria-expanded="false" onclick="toggleDropdown()">
+                  Wedding
+              </a>
+              <ul class="dropdown-menu" id="weddingDropdown" aria-labelledby="navbarDropdown" style="display: none;">                      <li>
+                          <a class="dropdown-item" href="hindu.html">Hindu Wedding</a>
+                      </li>
+                      <li>
+                          <a class="dropdown-item" href="muslim.html">Muslim Wedding</a>
+                      </li>
+                      <li>
+                          <a class="dropdown-item" href="christan.html">Christian Wedding</a>
+                      </li>
+                  </ul>
+              </li>
+
+              <li class="nav-item">
+                  <a class="nav-link" href="birthday.html">Birthday</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="engagement.html">Engagement Party</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="anniversary.html">Anniversary</a>
+              </li>
+          </ul>
       </div>
-    </div>
-  </nav>
+  </div>
+</nav>
+
+
